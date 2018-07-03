@@ -1,0 +1,133 @@
+@import url('<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">');
+
+
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	height: 950px;
+	width: 1064px;
+	margin-left: 153px;
+	margin-right: 153px;
+	position: absolute;
+	border-left: 1px ridge #c8c8c8;
+	border-right: 1px ridge #c8c8c8;
+}
+
+header .menu {
+	width: 970px;
+	margin: 46px 40px;
+	color: #ffffff;
+	background-color: #5c5c5c;
+}
+.menu ul {
+	overflow: hidden;
+	list-style: none;
+}
+.menu li {
+	float:left;
+}
+.menu a:link,a:visited {
+	display:block;
+	color: #ffffff; 
+	padding: 14px 70px 14px 24px;
+	font-weight:bold;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+}
+
+.menu a:hover,a:active  {
+	color: #ffffff; 
+	background-color:#3a3a3a;
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+}
+header .logo-image {
+	height: 40px;
+	padding-top: 50px;
+	padding-left: 46px;
+}
+.left_menu {
+	float: left;
+	width: 286px;
+}
+.left_menu ul {
+	list-style-type:none;
+	margin-top: 0px;
+	margin-left: 46px;
+}
+.left_menu a:link,a:visited {
+	display:block;
+	font-weight:normal;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	color:#656363;
+	text-align:left;
+	padding:20px;
+	text-decoration:none;
+	border: 1px solid #c8c8c8;
+	padding: 12px 24px 12px 22px;
+	vertical-align: middle;
+}
+.left_menu a:hover,a:active {
+	color: #2c2c2c;
+	font-weight:bold;
+	padding-left: 36px;
+}
+.aside {
+	float: right;
+	width: 735px;
+}
+.aside p {
+	padding-left: 26px;
+	padding-top: 38px;
+	padding-bottom: 62px;
+	padding-right: 89px;
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+.footer {
+	clear: both;
+	width: 970px;
+	margin-left: 46px;
+	height: 40px;
+	margin-bottom: 60px;
+	color:#5c5c5c;
+	background-color:#e1e1e1;
+}
+.footer ul { 
+	list-style-type: none;
+	overflow: hidden;
+	
+}
+.footer li {
+	display:inline; 
+	float: left;
+}
+.footer a:link,a:visited {
+	display:block;
+	color:#5c5c5c; 
+	background-color:#e1e1e1; 
+	text-align:center;
+	text-decoration:none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	padding: 15px 70px 15px 24px;
+}
+.footer li p {
+	text-align: right;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	padding: 15px 0px 15px 300px;
+}
+.footer a:hover,a:active  {
+	text-decoration: underline;
+}

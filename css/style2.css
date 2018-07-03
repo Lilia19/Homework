@@ -1,0 +1,97 @@
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-repeat: no-repeat;
+	font-family: Tahoma;
+	font-style: normal;
+	color: #ffffff;
+	text-align: right;
+	position: absolute;
+	padding-top: 148px;
+	padding-bottom: 30px;
+	padding-right: 65px;
+	padding-left: 65px; 
+	width: 960px;
+	height: 883px;
+
+}
+header {
+	height: 40px;
+	margin-bottom: 20px;
+	width: 826px;
+}
+
+.header {
+	float: left;
+	width: 610.08px;
+}
+
+.header h1 {
+	font-size: 10.16px; 
+	text-align: left; 
+	padding-top: 27px;
+	padding-left: 85px;
+}
+
+.contact {
+	float: right;
+	width: 110.92px;
+	text-align: left;
+}
+.contact ul {
+	list-style-type:none;
+	line-height: 10px;
+}
+
+.contacts a:link,a:visited,a:hover,a:active {
+	font-size: 10.16px; 
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.details a:link,a:visited,a:hover,a:active {
+	font-size: 8.47px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.main {
+	clear: both;
+	background-color: orange;
+	width: 826px;
+}
+
+figure {
+	float: left;
+	text-align: center;
+	padding-right: 9px;
+	padding-bottom: 45px;
+}
+figure img {
+	border: 3px groove #aaaaaa;
+}
+figure p {
+	margin-bottom: 0;
+
+}
+figcaption {
+	padding-bottom: 10px;
+	font-size: 15.24px; 
+}
+
+.footer {
+	clear: both;
+	width: 826px;
+	flex: 0 0 auto;
+	padding-top: 108px;
+	
+}
+
+.footer p {
+	font-size: 10.16px;
+	text-align: center;
+}
