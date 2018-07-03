@@ -41,7 +41,7 @@ body {
 .menu1 a:link,a:visited {
 	height: 36px;
 	display:block;
-	color: red; 
+	color: blue; 
 	padding-left: 8px; 
 	padding-right: 8px; 
 	font-weight:normal;
@@ -121,7 +121,7 @@ body {
 	width: 40px;
 	height: 34px;
 	border-right: 1px solid #1f3d71;
-	background: url(images/fb_icon.gif) 2px 2px no-repeat;
+	background: url(../Images/fb_icon.gif) 2px 2px no-repeat;
 	box-shadow: 1px 0 0 0 #30498b;
 }
 .separator {
